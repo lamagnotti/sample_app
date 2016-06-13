@@ -1,1 +1,4 @@
-# empty
+louis:
+    name: Louis Magnotti
+    email: louis@manitinternational.com
+    password_digest: <%= User.digest('password') %>
